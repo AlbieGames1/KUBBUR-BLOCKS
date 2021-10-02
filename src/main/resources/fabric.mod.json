@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "kubbur",
+  "version": "${version}",
+
+  "name": "Kubbur Mod!",
+  "description": "Kubbur Stuff",
+  "authors": [
+    "AfraidMonster"
+  ],
+  "contact": {
+    "homepage": "https://afraidmonster.com/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "afraidmonster.kubbur.kubburmain"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.7",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
